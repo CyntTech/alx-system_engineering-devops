@@ -1,2 +1,2 @@
 #!/bin/bash
-cat header /etc/passwd
+head /etc/passwd
