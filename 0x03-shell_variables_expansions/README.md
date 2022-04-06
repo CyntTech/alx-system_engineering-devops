@@ -1,0 +1,1 @@
+shell varibales expansions readme
