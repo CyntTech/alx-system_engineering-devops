@@ -1,2 +1,2 @@
 #!/bin/bas
-cat -m | grep
+cat -n | grep [1359][[:space:]] | tr -s | cut -f2 
