@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script will display 'Best School' using the until loop
+t=0
+until [ $t == 10 ]
+do
+	echo "Best School"
+	((t++))
+done	
