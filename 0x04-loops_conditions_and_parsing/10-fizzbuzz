@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Displays numbers from 1 to 100 in list format.
+#   multiple of 3 and 5 will display "FizzBuzz".
+#   multiple of 3 will display "Fizz".
+#   multiple of 5 will display "Buzz".
+#   Otherwise, displays the number.
+for fig in {1..100}
+do
+  if (( fig % 3 == 0 && fig % 5 == 0 ))
+  then
+    echo "FizzBuzz"
+  elif (( fig % 3 == 0 ))
+  then
+    echo "Fizz"
+  elif (( fig % 5 == 0 ))
+  then
+    echo "Buzz"
+  else
+    echo "$fig"
+  fi
+done
