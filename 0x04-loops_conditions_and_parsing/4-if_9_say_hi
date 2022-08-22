@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# display of Best School using while loop and if then print Hi on 9th iteration
+t=1
+while [ $t -lt 11 ];
+do
+	if [ $t == 10 ]; then
+		echo "Hi"
+	fi
+	echo "Best School"
+	((t++))
+done
