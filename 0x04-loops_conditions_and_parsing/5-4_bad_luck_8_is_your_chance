@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#displays'bad luck'@ 4th loop, 'good luck'@ 8th and 'Best School' for others
+t=1
+while [ $t -lt 11 ];
+do
+	if [ $t == 4 ]; then
+		echo "bad luck"
+	elif [ $t == 8 ]; then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((t++))
+done
