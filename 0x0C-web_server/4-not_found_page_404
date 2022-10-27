@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Nginx server configuration
+# Configure Nginx
 
 apt update
 apt install -y nginx
 
-echo "Hello World!" | sudo tee /var/www/html/index.html
-echo "Ceci n'est pas une page" > /var/www/html/404.html
+sudo echo "Hello World!" > /var/www/html/index.html
+sudo echo "Ceci n'est pas une page" > /var/www/html/404.html
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
