@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# sets up a new 404 error page
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt install haproxy -y
+sudo chown  $USER:$USER /etc/haproxy/haproxy.cfg
+sudo echo "ENABLED-=1" >> /etc/default/haproxy
+sudo echo "frontend http_front
+        bind *:80
+        stats uri /haproxy?stats
+        default_backend http_back
+backend http_back
+        balance roundrobin
+        server 46945-web-01 54.237.28.62:80 check
+        server 46945-web-02 18.233.66.73:80 check" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy start
