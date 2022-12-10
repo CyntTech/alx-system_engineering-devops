@@ -12,12 +12,12 @@ The root cause of the sudden shutdown was a hardware failure of the system batte
 
 # Timeline (West Africa Standard Time)
 
-1:35 pm: Notice of missing battery icon on the taskbar
-1:36 pm: An attempt to locate the battery icon proved abortive
-1:45 pm: Abrupt shutdown of the system
-5:05 pm: Replacement of the system battery
-5:07 pm: Charging of replacement battery
-6:30 pm: Successful charge and booting of the system
+* 1:35 pm: Notice of missing battery icon on the taskbar
+* 1:36 pm: An attempt to locate the battery icon proved abortive
+* 1:45 pm: Abrupt shutdown of the system
+* 5:05 pm: Replacement of the system battery
+* 5:07 pm: Charging of replacement battery
+* 6:30 pm: Successful charge and booting of the system
 
 
 # Root Cause
@@ -32,10 +32,10 @@ When the incident occurred, the system was taken to a manufacturer’s workshop 
 
 
 # Corrective and Preventive Measures
-*The power cable should be unplugged once the battery is fully charged.
+* The power cable should be unplugged once the battery is fully charged.
 
-Batteries should be charged only when it has fully discharged or below 10%.
+* Batteries should be charged only when it has fully discharged or below 10%.
 
-Ensure power cables are in working condition.
+* Ensure power cables are in working condition.
 
-A backup battery should be available
+* A backup battery should be available
